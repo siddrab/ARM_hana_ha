@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "vmadmin"
+    },
+    "adminPasswordOrKey": {
+      "value": "Microsoft@123456"
+    },
+    "hana_VM1_name": {
+      "value": "hana3"
+    },
+    "hana_VM2_name": {
+      "value": "hana4"
+    },
+    "HANA_AvSetName": {
+      "value": "HANA_AvSet1"
+    }
+  }
+}
