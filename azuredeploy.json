@@ -62,14 +62,14 @@
     },
     "virtualNetworkResourceGroupName": {
       "type": "string",
-      "defaultValue": "East2_VNET",
+      "defaultValue": "VNET",
       "metadata": {
         "description": "Name of the VNET"
       }
     },
     "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "Sid_East2_VNET",
+      "defaultValue": "VNET",
       "metadata": {
         "description": "Name of the VNET"
       }
